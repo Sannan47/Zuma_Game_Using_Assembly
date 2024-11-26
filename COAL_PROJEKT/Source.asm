@@ -512,8 +512,11 @@ main PROC
     ; Initialize screen and emitter
     call InitialiseScreen
 
+    call draw_emitter
+
     ; Call Player Cannon movement function(this function is recursive, and will repeat until the game is either won or lost)
     call MovePlayer
+
 
     exit
 main ENDP

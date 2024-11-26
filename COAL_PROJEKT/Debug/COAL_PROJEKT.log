@@ -1,4 +1,4 @@
 ﻿  Assembling Source.asm...
-Source.asm(526): error A2006: undefined symbol : check_for_key_press
-Source.asm(528): error A2006: undefined symbol : fire
+Source.asm(506): error A2006: undefined symbol : draw_emitter
+Source.asm(515): error A2006: undefined symbol : draw_emitter
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\Source.obj" /I "D:\Study\University\Semester_3\COAL_Lab\Irvine\irvine" /W3 /errorReport:prompt  /TaSource.asm" exited with code 1.
